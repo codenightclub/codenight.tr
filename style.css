@@ -7,11 +7,11 @@
 }
 
 :root {
-    --bg: #0c0c0e;
-    --border: #1a1b1e;
-    --text-dim: #36383d;
-    --text: #62656d;
-    --text-bright: #e2e4e8;
+    --bg: #fafafa;
+    --border: #e8e8e8;
+    --text-dim: #aaaaaa;
+    --text: #888888;
+    --text-bright: #111111;
 }
 
 body {
@@ -162,6 +162,11 @@ section > p {
 .project:hover .project-name {
     color: var(--text-bright);
     opacity: 0.75;
+}
+
+.project--wip .project-meta {
+    color: var(--text-dim);
+    font-style: italic;
 }
 
 /* Contact */
